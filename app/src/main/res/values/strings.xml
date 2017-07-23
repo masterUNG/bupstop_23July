@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bus Stop</string>
+    <string name="action_settings">อัพเดท</string>
+    <string name="title_activity_a">A</string>
+    <string name="title_activity_input">Input</string>
+    <string name="title_activity_but_no">But_no</string>
+    <string name="title_activity_but_details">But_details</string>
+    <string name="title_activity_system">System</string>
+    <string name="title_activity_system1">System1</string>
+</resources>

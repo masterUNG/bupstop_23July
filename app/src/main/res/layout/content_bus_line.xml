@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Bus_line"
+    tools:showIn="@layout/activity_bus_line">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <Button
+        android:id="@+id/buttOnline"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="รถประจำทางสาย1"
+        android:textSize="30dp"
+        android:onClick="Onclick1"/>
+
+        <ListView
+            android:id="@+id/livShowBus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+    </LinearLayout>
+</RelativeLayout>
